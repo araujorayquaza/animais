@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		<link rel="Icon" href="icon.png"/>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>StreetPet</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="estilo.css"/> 
+    </head>
+
+    <body>
+       
+	<div id="menu1">
+		<div class="topnav" id="myTopnav">
+		
+			<a href="file:///C:/Users/Usuario/Desktop/site/index.html"target = "_bank"><img src="logo.png" width="120px"/></a>
+			 
+			<a href="file:///C:/Users/Usuario/Desktop/site/index.html" class="active">Início</a>
+			
+			<div class="dropdown">
+			<button class="dropbtn">Animais
+			<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			<a href="Insira link aqui">Cachorros</a>
+			<a href="Insira link aqui">Gatos</a>
+			</div>
+			</div> 
+			
+			<a href="Insira link aqui">parceiros</a>
+			
+			<a href="file:///C:/Users/Usuario/Desktop/site/localizacao.html">localização</a>
+
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+			
+		</div>
+	</div>
+
+
+
+	<input type="radio" class="slide-controller" name="slide" checked />
+	<input type="radio" class="slide-controller" name="slide" />
+	<input type="radio" class="slide-controller" name="slide" />
+	<input type="radio" class="slide-controller" name="slide" />
+	
+	<div class="slide-show" >
+	  <ul class="slides-list" >
+		<li class="slide" >
+		  <img src="dog1.png" />
+		</li>
+		<li class="slide" >
+		  <img src="dog2.png" />
+		</li>
+		<li class="slide" >
+		  <img src="dog3.png" />
+		</li>
+		<li class="slide" >
+		  <img src="dog4.png" />
+		</li>
+	  </ul>
+	</div>
+
+	
+
+	<div style="position:relative;">
+		<div style="color:#ddd;background-color:#333;text-align:center;padding:30px 80px;text-align: justify;">
+		<p>R. Francisco Valzachi, 51 - Vila Rosa, Taquaritinga - SP</p>
+		<p>streetpettq@gmail.com</p>
+		<p>(16) 99767-6247</p>
+		<p><a href="Insira link"target = "_bank"><img src="face.png" width="30px"/></a></p>
+		</div>
+	</div>
+	   
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	   
+    </body>
+
+</html>
